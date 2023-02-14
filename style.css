@@ -417,7 +417,7 @@ color: #FFFFFF;
 margin-top: 150px;
 position: relative;
 width: 1081px;
-height: 523px;
+height: 470px;
 left: 100px;
 background: #EFEEEE;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -436,7 +436,7 @@ border-radius: 45px;
 .ocnovatel p{
     width: 900px;
     padding-left: 85px;
-    padding-top: 40px;
+    padding-top: 2px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
@@ -447,14 +447,14 @@ border-radius: 45px;
 }
 .adresfon{
     margin-top: 200px;
-    background-image: url(/image/5.jpg);
+    background-image: url(image/5.jpg);
     height: 700px;
 }
 .kontakt{
     position: relative;
     top: 150px;
     width: 820px;
-    height: 367px;
+    height: 427px;
     left: 230px;
     background: #EFEEEE;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
