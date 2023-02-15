@@ -51,6 +51,24 @@ header a{
     position: absolute;
     right: 274px;
 }
+header p{
+    padding-top: 30px;
+   
+    position: relative;
+    width: 281px;
+    height: 53px;
+    left: 520px;
+    font-family: 'Lekton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+.plogo{
+    position: relative;
+    top: -80px;}
 .window{
     
     background: url(image/bagraund.jpg);
@@ -481,7 +499,7 @@ border-radius: 45px;
     font-style: normal;
     font-weight: 300;
     font-size: 40px;
-    line-height: 28px;
+    line-height: 18px;
     color: #000000;
 }
 hr{
