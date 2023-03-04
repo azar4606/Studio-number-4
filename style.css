@@ -1,87 +1,120 @@
 
 .main{
+    top: -80px;
+    position: relative;
     width:1280px;
     margin:0 auto;
     text-align:left; 
     background: white;
     position: relative;
+    padding-top: 0px;
  
 }
 body{
+    transform: scale(1);
     background: #1E1E1E;
+    margin-top: 0px;
+    padding: 0px;
+    
     
 }
 header{
-    height: 100px;
+    height: 450px;
     background-color: white;
 }
-header a{
+.acontainer{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header .a2,.a3,.a4, .a22{
+    margin-top: 150px;
+    height: 35px;
+    width: 150px;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    background: #c0bfbf;
+    background: #19296D;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 45px;
 }
-.a1,.a2,.a3,.a4{
-    color: black;
+.a1,.a2,.a3,.a4, .a22{
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 24px;
     line-height: 29px;
-    top: 24px;
+    top: 204px;
+}
+.a3:before {
+    content: '';
+    position: absolute;
+    left: 960px;
+    height: 55px;
+    width: 180px;
+}
+.a2:before {
+
+    content: '';
+    position: absolute;
+    left: 690px;
+    height: 55px;
+    width: 180px;
+}
+.a22:before {
+    
+    content: '';
+    position: absolute;
+    left: 410px;
+    height: 55px;
+    width: 180px;
+}
+.a1:before {
+    
+    content: '';
+    position: absolute;
+    left: 140px;
+    height: 55px;
+    width: 180px;
 }
 .a1{
-    position: absolute;
-    left: 100px   
-}
-.a2{
-    position: absolute;
-    left: 300px;
-}
-.a4{
-    position: absolute;
-    right: 100px;
-}
-.a3{
-    position: absolute;
-    right: 274px;
-}
-header p{
-    padding-top: 30px;
-   
-    position: relative;
-    width: 281px;
-    height: 53px;
-    left: 520px;
-    font-family: 'Lekton';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
+    margin-top: 150px;
+    height: 35px;
+    width: 150px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
-    color: #000000;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+    background: #ff0b79;
 }
-.plogo{
+.logodiv{
     position: relative;
-    top: -80px;}
+    left: 150px;
+    top: 50px;
+    height: 200px;
+    width: 200px;
+}    
+
 .window{
     
-    background: url(image/bagraund.jpg);
-    background-color: #646161;
+    background: url(image1/bg1.jpg);
+    background-color: rgba(0, 0, 0, 0.308);
     background-size: cover;
     background-blend-mode:multiply ;
     display: inline-block;
     box-sizing: border-box;
     width: 1280px;
-    height: 526px;
+    height: 796px;
     left: 1px;
-    top: 112px;
-    box-shadow: 0px 5px 12px 10px rgba(0, 0, 0, 0.25);
+    top: 212px;
+    box-shadow: 0px 5px 12px 10px rgba(0, 0, 0, 0.068);
     color: white;
 }
 .window h1{
@@ -89,7 +122,7 @@ position: absolute;
 width: 1021px;
 height: 263px;
 left: 122px;
-top: 200px;
+top: 605px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
@@ -97,13 +130,14 @@ font-size: 64px;
 line-height: 77px;
 text-align: center;
 color: #FFFFFF;
+text-shadow: black 0 5px 4px;
 }
 .window p{
 position: absolute;
-width: 1021px;
+width: 1081px;
 height: 263px;
 left: 122px;
-top: 400px;
+top: 820px;
 font-family: 'Inter';
 font-style: italic;
 font-weight: 700;
@@ -111,6 +145,7 @@ font-size: 32px;
 line-height: 77px;
 text-align: center;
 color: #FFFFFF;
+text-shadow: black 0 5px 4px;
 }
 .a5{
     box-sizing: border-box;
@@ -118,35 +153,35 @@ color: #FFFFFF;
     width: 368px;
     height: 73px;
     left: calc(50% - 368px/2);
-    top: 81px;
-    background: #1E1E1E;
+    top: 200px;
+    background:  #19296D;
     border: 4px solid #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
     border-radius: 45px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 32px;
     line-height: 60px;
     text-align: center;
     color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .onas1{
-    margin-top: 50px;
-    margin-bottom:50px ;
-    width: 1280px;
-    height: 279px;
-    left: 1px;
-    top: 700px;
-
-    background: #FFFFFF;
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-bottom:150px ;
+    width: 1100px;
+    height: 179px;
+    left: 1004px;
+    top: 300px;
+    border-radius: 85px;
     
     }
 .onas1 h1 {
-    position: absolute;
-    left: 570px;; 
-    top: 670px;
-    font-family: Inter;
+    position: relative;
+    top: -81px;
+    font-family: 'Inter';
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
@@ -155,17 +190,21 @@ color: #FFFFFF;
     color: #000000;
 }
 .onas1 p{
-    padding-left: 95px;
     width: 1100px;
-    position: absolute;
-    top: 750px;
-    font-family: Inter;
+    position: relative;
+    top: -60px;
+    text-align: center;
+    font-family: 'Inter';
     font-size: 30px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0em;
-    text-align: center;
+    
 }   
+/* #onas2{
+    position: relative;
+    top: -80px;
+} */
 .image{
     position: relative;
     padding-top: 50px;
@@ -192,13 +231,27 @@ color: #FFFFFF;
     left: 421px;
     
 }
+.yslugih1 h1{
+    top: 60px;
+    position: relative;
+    left: calc(50% - 320px/2);
+    width: 320px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #000000;
+}
 .manikur{
     margin-top: 110px;
     position: relative;
     width: 1080px;
     height: 743px;
     left: 101px;
-    background: #e6e6e6;
+    background: #E3DFD9;
     box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.25);
     border-radius: 45px;
 }
@@ -219,15 +272,16 @@ color: #FFFFFF;
     position: absolute;
     width: 368px;
     height: 73px;
-    background: #1E1E1E;
+    background: #19296D;
     border: 4px solid #FFFFFF;
+    text-decoration: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 45px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 60px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 65px;
     text-align: center;
     color: #FFFFFF;
     top: 618px;
@@ -242,9 +296,9 @@ color: #FFFFFF;
     top: 153px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 39,05px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 59,05px;
     color: #000000;
 }
 .manikur img{
@@ -263,7 +317,7 @@ color: #FFFFFF;
     width: 1080px;
     height: 743px;
     left: 101px;
-    background: #e6e6e6;
+    background: #D9D9D9;
     box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.25);
     border-radius: 45px;
 }
@@ -284,19 +338,20 @@ color: #FFFFFF;
     position: absolute;
     width: 368px;
     height: 73px;
-    background: #1E1E1E;
+    background: #19296D;
     border: 4px solid #FFFFFF;
+    text-decoration: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 45px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 60px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 65px;
     text-align: center;
     color: #FFFFFF;
     top: 618px;
-    left: 580px;
+    left: 620px;
    
 }
 .opedikure{
@@ -307,9 +362,9 @@ color: #FFFFFF;
     top: 153px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 39,05px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 59,05px;
     color: #000000;
 }
 .pedikur img{
@@ -321,6 +376,204 @@ color: #FFFFFF;
     top: 60px;
     border-radius: 25px;
 }
+
+.resnis{
+    margin-top: 110px;
+    position: relative;
+    width: 1080px;
+    height: 743px;
+    left: 101px;
+    background: #D9D9D9;
+    box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+}
+.resnis h2 {
+    position: absolute;
+    width: 479px;
+    height: 574px;
+    left: 170px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+}
+.resnis a{
+    box-sizing: border-box;
+    position: absolute;
+    width: 368px;
+    height: 73px;
+    background: #19296D;
+    border: 4px solid #FFFFFF;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 618px;
+    left: 106px;
+   
+}
+.oresnis{
+    position: relative;
+    width: 479px;
+    height: 574px;
+    left: 41px;
+    top: 153px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 59,05px;
+    color: #000000;
+}
+.resnis img{
+    position: absolute;
+    width: 476px;
+    height: 640px;
+    
+    left: 580px;
+    top: 60px;
+    border-radius: 25px;
+}
+
+.brovi{
+    margin-top: 110px;
+    position: relative;
+    width: 1080px;
+    height: 743px;
+    left: 101px;
+    background: #e6e6e6;
+    box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+}
+.brovi h2 {
+    position: absolute;
+    width: 479px;
+    height: 574px;
+    left: 670px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+}
+.brovi a{
+    box-sizing: border-box;
+    position: absolute;
+    width: 368px;
+    height: 73px;
+    background: #19296D;
+    border: 4px solid #FFFFFF;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 618px;
+    left: 580px;
+   
+}
+.obrovi{
+    position: relative;
+    width: 479px;
+    height: 574px;
+    left: 580px;
+    top: 153px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 59,05px;
+    color: #000000;
+}
+.brovi img{
+    position: absolute;
+    width: 476px;
+    height: 640px;
+    
+    left: 41px;
+    top: 60px;
+    border-radius: 25px;
+}
+.parafinoterapia{
+    margin-top: 110px;
+    position: relative;
+    width: 1080px;
+    height: 743px;
+    left: 101px;
+    background: rgba(25, 41, 109, 0.18);
+    box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+}
+.parafinoterapia h2 {
+    position: absolute;
+    width: 479px;
+    height: 574px;
+    left: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+}
+.parafinoterapia a{
+    box-sizing: border-box;
+    position: absolute;
+    width: 368px;
+    height: 73px;
+    background: #19296D;
+    border: 4px solid #FFFFFF;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 618px;
+    left: 106px;
+   
+}
+.oparafi{
+    position: relative;
+    width: 479px;
+    height: 574px;
+    left: 41px;
+    top: 153px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 59,05px;
+    color: #000000;
+}
+.parafinoterapia img{
+    position: absolute;
+    width: 476px;
+    height: 640px;
+    
+    left: 580px;
+    top: 60px;
+    border-radius: 25px;
+}
+
 .image7{
     position: relative;
     padding-top: 130px;
@@ -359,7 +612,7 @@ color: #FFFFFF;
     width: 711px;
     height: 152px;
     left: 286px;
-    top:  4000px;
+    top:  7390px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -376,7 +629,7 @@ color: #FFFFFF;
     line-height: 39px;
     letter-spacing: 0em;
     text-align: center;
-    top: 70px;
+    top: 100px;
     
 }
 .skidki img{
@@ -426,6 +679,8 @@ color: #FFFFFF;
     font-size: 30px;
     line-height: 39px;
     color: #000000;
+    padding-left: 100px;
+    width: 500px;
     
 }
 .onas li{
@@ -437,7 +692,7 @@ position: relative;
 width: 1081px;
 height: 470px;
 left: 100px;
-background: #EFEEEE;
+background: #D9D9D9;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 45px;
 }
@@ -465,7 +720,7 @@ border-radius: 45px;
 }
 .adresfon{
     margin-top: 200px;
-    background-image: url(image/5.jpg);
+    background-image: url(image1/5.jpg);
     height: 700px;
 }
 .kontakt{
@@ -474,7 +729,7 @@ border-radius: 45px;
     width: 820px;
     height: 427px;
     left: 230px;
-    background: #EFEEEE;
+    background:#19296D;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 45px;
     text-align: center;
@@ -490,6 +745,7 @@ border-radius: 45px;
     font-size: 48px;
     line-height: 58px;
     padding-bottom: 20px;
+    color: white;
 }
 .kontakt p{
     position: relative;
@@ -497,15 +753,15 @@ border-radius: 45px;
     text-align: center;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 40px;
     line-height: 18px;
-    color: #000000;
+    color: #ffffff;
 }
 hr{
     width: 400px;
     border-style: inset;
     position: relative;
     top: -55px;
-    border: 3px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
 }
