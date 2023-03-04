@@ -104,7 +104,7 @@ header .a2,.a3,.a4, .a22{
 
 .window{
     
-    background: url(/image1/bg1.jpg);
+    background: url(../image1/bg1.jpg);
     background-color: rgba(0, 0, 0, 0.308);
     background-size: cover;
     background-blend-mode:multiply ;
